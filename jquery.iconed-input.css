@@ -1,0 +1,111 @@
+span.iconed-input {
+	position: relative;
+}
+span.iconed-input span {
+    position: absolute;
+    display: block;
+    top: 0px;
+    right: 3px;
+    width: 16px;
+    height: 16px;
+    z-index: 1;
+    cursor: pointer;
+}
+span.ie.iconed-input span {
+    top: -12px;
+}
+span.ie8.iconed-input span {
+    top: -12px;
+}
+span.iconed-input span.iconed-input-info {
+    background-image: url('../icons/info.gif');
+	background-repeat:no-repeat;
+}
+span.iconed-input span.iconed-input-warning {
+    background-image: url('../icons/warning.gif');
+	background-repeat:no-repeat;
+}
+span.iconed-input span.iconed-input-error {
+    background-image: url('../icons/error.gif');
+	background-repeat:no-repeat;
+}
+span.iconed-input span.iconed-input-hidden {
+    display:none;
+}
+span.iconed-input input {
+    padding-right: 16px;
+}
+.iconed-input-tooltip {
+    cursor: pointer;
+    display: block;
+    left: 300px;
+    position: absolute;
+    top: 300px;
+    z-index: 5000;
+}
+.iconed-input-tooltip .iconed-input-tooltip-content {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #2275BE;
+    border-radius: 6px 6px 6px 6px;
+    color: #2275BE;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 8pt;
+    padding: 4px 10px;
+    position: relative;
+    width: 150px;
+    z-index: 5001;
+}
+.iconed-input-tooltip .iconed-input-tooltip-arrow {
+    margin: -2px 0 0 13px;
+    position: relative;
+    width: 15px;
+    z-index: 5006;
+}
+.iconed-input-tooltip .iconed-input-tooltip-arrow div {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-left: 2px solid #2275BE;
+    border-right: 2px solid #2275BE;
+    display: block;
+    height: 1px;
+    line-height: 0;
+    margin: 0 auto;
+}
+.iconed-input-tooltip .iconed-input-tooltip-arrow .line10 {
+    border: medium none;
+    width: 15px;
+}
+.iconed-input-tooltip .iconed-input-tooltip-arrow .line9 {
+    border: medium none;
+    width: 13px;
+}
+.iconed-input-tooltip .iconed-input-tooltip-arrow .line8 {
+    width: 11px;
+}
+.iconed-input-tooltip .iconed-input-tooltip-arrow .line7 {
+    width: 9px;
+}
+.iconed-input-tooltip .iconed-input-tooltip-arrow .line6 {
+    width: 7px;
+}
+.iconed-input-tooltip .iconed-input-tooltip-arrow .line5 {
+    width: 5px;
+}
+.iconed-input-tooltip .iconed-input-tooltip-arrow .line4 {
+    width: 3px;
+}
+.iconed-input-tooltip .iconed-input-tooltip-arrow .line3 {
+    border-bottom: 0 solid #2275BE;
+    border-left: 2px solid #2275BE;
+    border-right: 2px solid #2275BE;
+    width: 1px;
+}
+.iconed-input-tooltip .iconed-input-tooltip-arrow .line2 {
+    background: none repeat scroll 0 0 #2275BE;
+    border: medium none;
+    width: 3px;
+}
+.iconed-input-tooltip .iconed-input-tooltip-arrow .line1 {
+    background: none repeat scroll 0 0 #2275BE;
+    border: medium none;
+    width: 1px;
+}
